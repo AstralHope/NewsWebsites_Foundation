@@ -2,7 +2,6 @@
 ##Design and Development of News Websites Based on Foundation Framework
 
 毕业设计
-<<<<<<< HEAD
 
 题目：基于 Foundation 框架的新闻网站前台设计与开发
 
@@ -10,7 +9,7 @@
 
 指导老师：冯晶
 
-作者：郭索眸(AstralHope<astralhope@gmail.com>)
+作者：郭索眸(AstralHope <astralhope@gmail.com>)
 
 
 要求:
