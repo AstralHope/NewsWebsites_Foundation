@@ -16,7 +16,7 @@
               <input type="search" placeholder="热点新闻">
             </div>
           </div>
-          <div class="column small-4" ><button class="button">登录</button></div>
+          <div class="column small-4" ><button class="button" onclick="login();">登录</button></div>
           <div class="column small-4" ><button class="button">注册</button></div>
           <div class="column small-4" ><button class="button">搜索</button></div>
         </div>
@@ -85,7 +85,7 @@
               </div>
               <div class="top-bar-right" style="display: inline-block">
                 <ul class="menu">
-                  <li><button class="button">登录</button></li>
+                  <li><button class="button" onclick="login();">登录</button></li>
                   <li><input type="search" placeholder="热点新闻"></li>
                   <li><button class="button">搜索</button> </li>
                 </ul>
@@ -115,12 +115,12 @@
         </nav>
       </div>
       <!--新闻栏-->
-      <div class="row" style="background: #e1faea">
+      <div class="gird-x" style="background: #e1faea">
         <div class="column small-4"><img src="pictures/news1.jpg"></div>
         <div class="column small-8"><a href="#">不用发酵粉如何发面？</a> </div>
         <hr>
       </div>
-      <div class="row" style="background: #e1faea">
+      <div class="gird-x" style="background: #e1faea">
         <div class="column small-4"><img src="pictures/news2.jpg"></div>
         <div class="column small-8"><a href="#">怎样烙饼脆而不硬？</a> </div>
         <hr>
@@ -293,7 +293,12 @@
 
   </div>
 
-
+  <script type="text/javascript">
+      function login()
+      {
+          window.location.href="login/login.html";//跳转到登录页面
+      }
+  </script>
   <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
